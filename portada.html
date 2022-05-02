@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Document</title>
+</head>
+<body>
+    <div id="slider">
+        <ul>
+            <li><img src="img/slider2.jpg" alt="despla2"></li>
+            <li><img src="img/slider1.jpg" alt="despla"></li>
+            <li><img src="img/slider3.jpg" alt="despla3"></li>
+            <li><img src="img/slider4.jpg" alt="despla4"></li>
+        </ul>
+    </div>
+    <div class="Menu">
+        <ul>
+            <li><a href="#slider"> Inicio</a></li>
+            <li><a href="#habitaciones"> Productos</a></li>
+            <li><a href="#servicios"> Servicios</a></li> 
+            <li><a href="#anuncios"> Ofertas</a></li>
+            <li><a href="#Contacto"> Contactos</a></li>
+        </ul>
+    </div>
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+    <div id="cuerpo">
+        <h1>El mejor hotel, ideal para conectar con la naturaleza</h1>
+    
+        <img src="img/mapa.png" alt="mapa">
+        <p>Docelor sit amet consectetur adipisicing elit. Labore maiores incidunt asperiores quae dolores. Nisi explicabo inventore, fugiat possimus culpa quia non numquam quam vel veniam minus modi facere! Quisquam enim dolorum odit quasi exercitationem excepturi optio nostrum sunt magni alias. Numquam omnis eligendi nam illo sequi officia mollitia similique quisquam, sed eos nesciunt dolorum tempore molestiae beatae modi tenetur. <br>
+        Minus ad ratione nam obcaecati ipsa blanditiis ullam commodi mollitia reprehenderit aut consequatur cupiditate, architecto reiciendis iusto. Rerum quia saepe provident dolorem.
+        </p>
+    </div>
+        <h1>Habitaciones en cualquier parte del mundo</h1>
+        <div id="habitaciones">
+            <div class="habitacion">
+                <img src="img/habitacion.jpg" alt="">
+                <h4>Hotel Riu en el centro de madrid</h4>
+                <h3>Madrid</h3>
+                <h2>Desde 70€</h2>
+            </div>
+            <div class="habitacion">
+                <img src="img/habitacion2.jpg" alt="">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <h3>Nueva York</h3>
+                <h2>Desde 80€</h2>
+            </div>
+            <div class="habitacion">
+                <img src="img/habitacion3.jpg" alt="">
+                <h4>Amet consectetur adipisicing elit.</h4>
+                <h3>Costa Rica</h3>
+                <h2>Desde 100€</h2>
+            </div>
+            <div class="habitacion">
+                <img src="img/habitacion4.jpg" alt="">
+                <h4>Quisquam quia officia optio cumque </h4>
+                <h3>Ibiza</h3>
+                <h2>Desde 110€</h2>
+            </div>
+            
+        </div>
+        <div id="anuncios">
+            <div class="item1"><img src="img/Ofertas1.jpg" alt=""></div>
+            <div class="item2"><img src="img/ofertas5.jpg" alt="oferta"></div>
+            <div class="item3"><img src="img/ofertas3.jpg" alt=""></div>
+            <div class="item4"><img src="img/ofertas4.jpg" alt=""></div>
+            <div class="item5"><img src="img/ofertas6.jpg" alt=""></div>
+        </div>
+        <!-- imagenes 
+        para la columna de tres -->
+        <div id="servicios">
+            <div class="serves">
+                <img src="img/cama.png" alt="hotel">
+                <h2>Hotel</h2>
+            </div>
+            <div class="serves">
+                <img src="img/restaurante.png" alt="restaurante">
+                <h2>Restaurante</h2>
+            </div>
+            <div class="serves">
+                <img src="img/wifi.png" alt="wifi">
+                <h2>Wifi</h2>
+            </div>
+            <div class="serves">
+                <img src="img/avion.png" alt="recogida en el aeropuerto">
+                <h2>Recogida en el aeropuerto</h2>
+            </div>
+        </div>
+    
+      
+    
+    
+    <form action="/fg/ger" method="get" id="Contacto">
+        <fieldset>
+            <legend>Contacto</legend>
+        <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="fname" placeholder="Escriba el nombre"><br>
+        <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="lname" placeholder="Escriba el apellido" ><br>
+        <label for="numero">Numero:</label>
+            <input type="number" id="numero" name="tnumber" placeholder="Telefono +34XXXXXXXXX" pattern="+[0-9]{11}">
+        <label for="email"> Correo :</label> 
+            <input type="email" id="email" name="email" placeholder="Escriba el email"><br>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Mujer</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Hombre</label><br>
+            <label for="comentarios">Mensaje:</label> <br>
+                <textarea name="comentarios" rows="5" cols="40" id="comentarios"></textarea><br>
+            <button type="reset">BORRAR</button>
+            <button type="submit">REGISTRAR</button>
+            
+        </fieldset>
+    </form>
+     
+    <footer>
+        <img src="img/logo.png" alt="logo">
+        <div id="informacion">
+            <h5>Telefono: +34 987 654 321 </h5>
+            <h5>Direccion: calle Madrid 28000</h5>
+            <h5>Chat Online</h5>
+        </div>
+        <div class="redes"><a href="https://es-es.facebook.com/"><img src="img/facebook.png" alt=""></a><a href="https://www.instagram.com/"><img src="img/insta.png" alt=""></a><a href="https://es.linkedin.com/"><img src="img/Linkedin.png" alt=""></a><a href="https://web.whatsapp.com/"><img src="img/WhatsApp.png" alt=""></a></div>
+    </footer>
+
+</body>
+</html>
